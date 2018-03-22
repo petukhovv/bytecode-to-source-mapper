@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bytecode-to-source-mapper.iml" filepath="$PROJECT_DIR$/.idea/modules/bytecode-to-source-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bytecode-to-source-mapper_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bytecode-to-source-mapper_main.iml" group="bytecode-to-source-mapper" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bytecode-to-source-mapper_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bytecode-to-source-mapper_test.iml" group="bytecode-to-source-mapper" />
+    </modules>
+  </component>
+</project>
