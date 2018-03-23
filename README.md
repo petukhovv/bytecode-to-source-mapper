@@ -23,15 +23,6 @@ Also the program appends `lineNumbers` (map of methods to line numbers in source
 Map file example:
 ```json
 {
-  "myname/myrepo/classes/net/headlezz/resdiff/BooleanResource.class": {
-    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
-    "lineNumbers": {
-      "<init>": {
-        "first": 58,
-        "second": 58
-      }
-    }
-  },
   "myname/myrepo/classes/net/headlezz/resdiff/CLOptions.class": {
     "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/CLOptions.kt",
     "lineNumbers": {
@@ -50,42 +41,6 @@ Map file example:
       "<init>": {
         "first": 10,
         "second": 19
-      }
-    }
-  },
-  "myname/myrepo/classes/net/headlezz/resdiff/ColorResource.class": {
-    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
-    "lineNumbers": {
-      "<init>": {
-        "first": 59,
-        "second": 59
-      }
-    }
-  },
-  "myname/myrepo/classes/net/headlezz/resdiff/DimensionResource.class": {
-    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
-    "lineNumbers": {
-      "<init>": {
-        "first": 61,
-        "second": 61
-      }
-    }
-  },
-  "myname/myrepo/classes/net/headlezz/resdiff/IntegerResource.class": {
-    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
-    "lineNumbers": {
-      "<init>": {
-        "first": 60,
-        "second": 60
-      }
-    }
-  },
-  "myname/myrepo/classes/net/headlezz/resdiff/ResDiffKt$getFiles$1.class": {
-    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/ResDiff.kt",
-    "lineNumbers": {
-      "accept": {
-        "first": 148,
-        "second": 148
       }
     }
   },
@@ -123,89 +78,6 @@ Map file example:
       "getResourcesFromFile": {
         "first": 157,
         "second": 182
-      }
-    }
-  },
-  "myname/myrepo/classes/net/headlezz/resdiff/ResdiffPackage.class": {
-    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/ResDiff.kt",
-    "lineNumbers": {
-      "genResourcePairs": {
-        "first": 1,
-        "second": 1
-      },
-      "getDifferences": {
-        "first": 1,
-        "second": 1
-      },
-      "getDifferencesForClass": {
-        "first": 1,
-        "second": 1
-      },
-      "getFiles": {
-        "first": 1,
-        "second": 1
-      },
-      "getResourcesFromFile": {
-        "first": 1,
-        "second": 1
-      },
-      "main": {
-        "first": 1,
-        "second": 1
-      },
-      "printDiffInTable": {
-        "first": 1,
-        "second": 1
-      },
-      "printDiffNormal": {
-        "first": 1,
-        "second": 1
-      }
-    }
-  },
-  "myname/myrepo/classes/net/headlezz/resdiff/Resource$Companion.class": {
-    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
-    "lineNumbers": {
-      "fromElement": {
-        "first": 16,
-        "second": 26
-      },
-      "match": {
-        "first": 31,
-        "second": 37
-      },
-      "<init>": {
-        "first": 14,
-        "second": 14
-      }
-    }
-  },
-  "myname/myrepo/classes/net/headlezz/resdiff/Resource$Type.class": {
-    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
-    "lineNumbers": {}
-  },
-  "myname/myrepo/classes/net/headlezz/resdiff/Resource.class": {
-    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
-    "lineNumbers": {
-      "match": {
-        "first": 46,
-        "second": 46
-      },
-      "matchIdent": {
-        "first": 53,
-        "second": 53
-      },
-      "getName": {
-        "first": 6,
-        "second": 6
-      },
-      "getValue": {
-        "first": 7,
-        "second": 7
-      },
-      "getType": {
-        "first": 8,
-        "second": 8
       }
     }
   },
