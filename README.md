@@ -8,7 +8,7 @@ The program extracts meta information from .class files.
 Based on the received source file name and the package name, the program searches required file in the specified directory with source code files.
 
 Package names are extracted from the source code files using the following regular expression:
-```
+```regexp
 (?:^|\\s|;)package (?<package>(?:\\.?\\w+)+)(?:\\s|;|$)
 ```
 
@@ -21,7 +21,7 @@ At the output, the program creates a file `bytecode_to_source_map.json` in the r
 Also the program appends `lineNumbers` (map of methods to line numbers in source files) to map file.
 
 Map file example:
-```
+```json
 {
   "myname/myrepo/classes/net/headlezz/resdiff/BooleanResource.class": {
     "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
