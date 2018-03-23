@@ -9,11 +9,11 @@ import java.io.File
 
 class BytecodeMetaInfoExtractor {
     companion object {
-        private const val KT_EXT = "kt"
+        private const val BYTECODE_FILE_EXT = "class"
 
         fun walkClassesDirectory(classesDirectory: String, callback: (file: File) -> Unit) {
             DirectoryWalker(classesDirectory).run {
-                if (it.isFile && it.extension == KT_EXT) {
+                if (it.isFile && it.extension == BYTECODE_FILE_EXT) {
                     callback(it)
                 }
             }
@@ -21,14 +21,18 @@ class BytecodeMetaInfoExtractor {
     }
 
     private fun calcLineNumberBounds(methods: Array<Method>): LineNumberBounds {
-        val lineNumberBounds: LineNumberBounds = mutableSetOf()
+        val lineNumberBounds: LineNumberBounds = mutableMapOf()
 
         methods.forEach {
+            if (it.lineNumberTable == null) {
+                return@forEach
+            }
+
             val lineNumberTable  = it.lineNumberTable.lineNumberTable
             val bottomBound = lineNumberTable.minBy { it.lineNumber }!!.lineNumber
             val topBound = lineNumberTable.maxBy { it.lineNumber }!!.lineNumber
 
-            lineNumberBounds.add(Pair(bottomBound, topBound))
+            lineNumberBounds[it.name] = Pair(bottomBound, topBound)
         }
 
         return lineNumberBounds

@@ -1,6 +1,6 @@
 package org.jetbrains.bytecodetosourcemapper.structures
 
-typealias LineNumberBounds = MutableSet<Pair<Int, Int>>
+typealias LineNumberBounds = MutableMap<String, Pair<Int, Int>>
 
 data class BytecodeFileMetaInfo(
         val packageName: String,
