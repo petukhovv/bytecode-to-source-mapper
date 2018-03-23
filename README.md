@@ -18,6 +18,8 @@ Before package name extracting from the file, all comments and strings are delet
 
 At the output, the program creates a file `bytecode_to_source_map.json` in the repo folder (or parent directory of `classesDirectory` or `sourcesDirectory` if you use single mode).
 
+Also the program appends `lineNumbers` (map of methods to line numbers in source files) to map file.
+
 Map file example:
 ```
 {
