@@ -7,5 +7,5 @@ fun main(args : Array<String>) {
     val classesDirectory by parser.storing("--classes_directory", help="path to folder with class files (with JVM-bytecode)")
     val sourcesDirectory by parser.storing("--sources_directory", help="path to folder with Kotlin source code files")
 
-//    Runner.run(classesDirectory, sourcesDirectory)
+    Runner.run(classesDirectory, sourcesDirectory)
 }
