@@ -233,6 +233,6 @@ Then you will have to use [RunnerByDirs](https://github.com/PetukhovVictor/bytec
 To run program you must run `main` function in `main.kt`, not forgetting to set the program arguments.
 
 Also you can run jar file (you can download from the [release assets](https://github.com/PetukhovVictor/bytecode-to-source-mapper/releases)):
-```
+```bash
 java -jar ./bytecode-to-source-mapper-0.1.jar -d ./repos
 ```
