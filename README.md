@@ -20,6 +20,8 @@ At the output, the program creates a file `bytecode_to_source_map.json` in the r
 
 Also the program appends `lineNumbers` (map of methods to line numbers in source files) to map file.
 
+**Mapping will be performed correctly only if the directory with bytecode files (.class files) and source code files are fully consistent**
+
 Map file example:
 ```json
 {
