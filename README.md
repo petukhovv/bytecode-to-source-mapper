@@ -21,8 +21,8 @@ At the output, the program creates a file `bytecode_to_source_map.json` in the r
 Map file example:
 ```
 {
-  "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/classes/net/headlezz/resdiff/BooleanResource.class": {
-    "file": "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
+  "myname/myrepo/classes/net/headlezz/resdiff/BooleanResource.class": {
+    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
     "lineNumbers": {
       "<init>": {
         "first": 58,
@@ -30,8 +30,8 @@ Map file example:
       }
     }
   },
-  "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/classes/net/headlezz/resdiff/CLOptions.class": {
-    "file": "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/CLOptions.kt",
+  "myname/myrepo/classes/net/headlezz/resdiff/CLOptions.class": {
+    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/CLOptions.kt",
     "lineNumbers": {
       "printHelp": {
         "first": 23,
@@ -51,8 +51,8 @@ Map file example:
       }
     }
   },
-  "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/classes/net/headlezz/resdiff/ColorResource.class": {
-    "file": "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
+  "myname/myrepo/classes/net/headlezz/resdiff/ColorResource.class": {
+    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
     "lineNumbers": {
       "<init>": {
         "first": 59,
@@ -60,8 +60,8 @@ Map file example:
       }
     }
   },
-  "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/classes/net/headlezz/resdiff/DimensionResource.class": {
-    "file": "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
+  "myname/myrepo/classes/net/headlezz/resdiff/DimensionResource.class": {
+    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
     "lineNumbers": {
       "<init>": {
         "first": 61,
@@ -69,8 +69,8 @@ Map file example:
       }
     }
   },
-  "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/classes/net/headlezz/resdiff/IntegerResource.class": {
-    "file": "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
+  "myname/myrepo/classes/net/headlezz/resdiff/IntegerResource.class": {
+    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
     "lineNumbers": {
       "<init>": {
         "first": 60,
@@ -78,8 +78,8 @@ Map file example:
       }
     }
   },
-  "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/classes/net/headlezz/resdiff/ResDiffKt$getFiles$1.class": {
-    "file": "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/ResDiff.kt",
+  "myname/myrepo/classes/net/headlezz/resdiff/ResDiffKt$getFiles$1.class": {
+    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/ResDiff.kt",
     "lineNumbers": {
       "accept": {
         "first": 148,
@@ -87,8 +87,8 @@ Map file example:
       }
     }
   },
-  "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/classes/net/headlezz/resdiff/ResDiffKt.class": {
-    "file": "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/ResDiff.kt",
+  "myname/myrepo/classes/net/headlezz/resdiff/ResDiffKt.class": {
+    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/ResDiff.kt",
     "lineNumbers": {
       "main": {
         "first": 14,
@@ -124,8 +124,8 @@ Map file example:
       }
     }
   },
-  "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/classes/net/headlezz/resdiff/ResdiffPackage.class": {
-    "file": "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/ResDiff.kt",
+  "myname/myrepo/classes/net/headlezz/resdiff/ResdiffPackage.class": {
+    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/ResDiff.kt",
     "lineNumbers": {
       "genResourcePairs": {
         "first": 1,
@@ -161,8 +161,8 @@ Map file example:
       }
     }
   },
-  "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/classes/net/headlezz/resdiff/Resource$Companion.class": {
-    "file": "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
+  "myname/myrepo/classes/net/headlezz/resdiff/Resource$Companion.class": {
+    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
     "lineNumbers": {
       "fromElement": {
         "first": 16,
@@ -178,12 +178,12 @@ Map file example:
       }
     }
   },
-  "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/classes/net/headlezz/resdiff/Resource$Type.class": {
-    "file": "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
+  "myname/myrepo/classes/net/headlezz/resdiff/Resource$Type.class": {
+    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
     "lineNumbers": {}
   },
-  "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/classes/net/headlezz/resdiff/Resource.class": {
-    "file": "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
+  "myname/myrepo/classes/net/headlezz/resdiff/Resource.class": {
+    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
     "lineNumbers": {
       "match": {
         "first": 46,
@@ -207,8 +207,8 @@ Map file example:
       }
     }
   },
-  "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/classes/net/headlezz/resdiff/StringResource.class": {
-    "file": "/Users/vapetukhov/Desktop/test_assets/danijoo/resdiff/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
+  "myname/myrepo/classes/net/headlezz/resdiff/StringResource.class": {
+    "file": "myname/myrepo/sources/danijoo-resdiff-0eda9db/src/main/kotlin/net/headlezz/resdiff/Resource.kt",
     "lineNumbers": {
       "<init>": {
         "first": 57,
